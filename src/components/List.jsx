@@ -25,7 +25,7 @@ const List = () => {
                     lists.map((item, i) => <li className="list">
                         <img src={item.image} alt="image1" /><br/>
                         <h3>{item.heading}</h3> <br/>
-                        <p>{item.description}</p>{item.description}
+                        <p>{item.description}</p>
                     </li>)
                 }
             </ul>
